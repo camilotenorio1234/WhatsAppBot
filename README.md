@@ -4,10 +4,19 @@
 Este proyecto permite automatizar el envío de textos a contactos específicos.
 
 ## 📂 Estructura del Proyecto
+```sh
+WhatsAppBot/
+├── data/
+│   ├── guion_sherk2.txt        # Archivo con los mensajes a enviar
+├── src/
+│   ├── whatsapp_bot.py         # Lógica principal del bot
+│   ├── main.py                 # Archivo ejecutable para iniciar el bot
+│   ├── test_main.py            # Pruebas unitarias del proyecto
+├── requirements.txt            # Dependencias necesarias para la ejecución
+├── README.md                   # Documentación del proyecto
+├── .gitignore                   # Archivos y carpetas a ignorar en el repositorio
 
-
-
-
+```
 
 ## 🔧 Instalación y Configuración
 
