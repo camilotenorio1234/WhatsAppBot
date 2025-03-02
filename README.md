@@ -18,6 +18,15 @@ WhatsAppBot/
 
 ```
 
+# 🚀 Instalación del repositorio
+
+## 📌 1. Clonar el repositorio
+
+```sh
+git clone [https://github.com/tu_usuario/FrameExtractor.git](https://github.com/camilotenorio1234/FrameExtractor-/tree/main)
+cd FrameExtractor
+```
+
 ## 🔧 Instalación y Configuración
 
 Este proyecto está desarrollado en **Python 3.7**. Antes de ejecutarlo, instala las dependencias necesarias con:
@@ -25,6 +34,7 @@ Este proyecto está desarrollado en **Python 3.7**. Antes de ejecutarlo, instala
 ```sh
 pip install -r requirements.txt
 ```
+
 🚀 Uso
 Asegúrate de haber iniciado sesión en WhatsApp Web.
 Ejecuta el script principal para iniciar el bot:
