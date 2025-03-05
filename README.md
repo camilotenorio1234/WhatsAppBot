@@ -96,8 +96,9 @@ def get_country_codes(self) -> dict:
 
 ## ✅ Unit Test Results
 
-This project includes automated tests executed with pytest.
-Below are the results:
+The project includes automated tests executed with pytest.
+
+To run the tests:
 
 ```sh
 pytest src/test_main.py
@@ -108,6 +109,39 @@ If you want more details:
 ```sh
 pytest -v
 ```
+
+Below are the results:
+
+```sh
+PS C:\Users\JuanC\OneDrive\Desktop\python codes\code in development\whatsapp_bot> pytest src/test_main.py  
+========================================================================
+platform win32 -- Python 3.7.16, pytest-7.4.4, pluggy-1.2.0
+collected 22 items
+src\test_main.py ...................... [100%]
+========================================================================
+22 passed in 0.08s
+```
+```sh
+PS C:\Users\JuanC\OneDrive\Desktop\python codes\code in development\whatsapp_bot> pytest -v
+========================================================================
+platform win32 -- Python 3.7.16, pytest-7.4.4, pluggy-1.2.0
+collected 22 items
+
+src/test_main.py::test_get_country_code[Colombia-57] PASSED  [  4%]
+src/test_main.py::test_get_country_code[Spain-34] PASSED     [  9%]
+src/test_main.py::test_get_country_code[United States-1] PASSED [13%]
+src/test_main.py::test_generate_full_number PASSED            [ 54%]
+src/test_main.py::test_generate_full_number_error PASSED      [ 59%]
+src/test_main.py::test_message_file_exists PASSED            [ 68%]
+src/test_main.py::test_get_whatsapp_numbers PASSED           [ 72%]
+========================================================================
+22 passed in 0.15s
+```
+
+🛠️ Future Improvements
+📌 Support for multiple messages per contact.
+📌 Graphical User Interface (GUI) for configuring message dispatch.
+📌 Detailed logs to record bot activity.
 
 </details>
 
