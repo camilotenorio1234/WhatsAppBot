@@ -228,7 +228,6 @@ pytest -v
 
 A continuación, los resultados:
 ```sh
-PS C:\Users\JuanC\OneDrive\Escritorio\codigos python\codigo en desarrollo\whatsapp_bot> pytest src/test_main.py  
 ========================================================================
 platform win32 -- Python 3.7.16, pytest-7.4.4, pluggy-1.2.0
 collected 22 items
@@ -237,7 +236,6 @@ src\test_main.py ...................... [100%]
 22 passed in 0.08s
 ```
 ```sh
-PS C:\Users\JuanC\OneDrive\Escritorio\codigos python\codigo en desarrollo\whatsapp_bot> pytest -v
 ========================================================================
 platform win32 -- Python 3.7.16, pytest-7.4.4, pluggy-1.2.0
 collected 22 items
