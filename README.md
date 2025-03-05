@@ -37,7 +37,7 @@ WhatsAppBot/
 ## 📌 1. Clone the repository
 
 ```sh
-git clone [https://github.com/your_user/WhatsAppBot.git](https://github.com/camilotenorio1234/WhatsAppBot-/tree/main)
+git clone [https://github.com/camilotenorio1234/WhatsAppBot.git](https://github.com/camilotenorio1234/WhatsAppBot/tree/main)
 cd WhatsAppBot
 ```
 
@@ -182,8 +182,9 @@ WhatsAppBot/
 ## 📌 1. Clonar el repositorio
 
 ```sh
-git clone [https://github.com/tu_usuario/WhatsAppBot.git](https://github.com/camilotenorio1234/WhatsAppBot-/tree/main)
+git clone [https://github.com/camilotenorio1234/WhatsAppBot.git](https://github.com/camilotenorio1234/WhatsAppBot/tree/main)
 cd WhatsAppBot
+
 ```
 
 ## 📌 2. Instalar dependencias
