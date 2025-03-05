@@ -179,7 +179,7 @@ Modifica `obtener_codigos_pais()` para agregar nuevos países.
 
 ## ✅ Resultados de Pruebas Unitarias
 
-Este proyecto cuenta con pruebas automatizadas ejecutadas con pytest.
+El proyecto cuenta con pruebas automatizadas ejecutadas con pytest.
 
 Para ejecutar las pruebas:
 
@@ -192,5 +192,39 @@ Si quieres ver más detalles:
 ```sh
 pytest -v
 ```
+
+A continuación, los resultados:
+```sh
+PS C:\Users\JuanC\OneDrive\Escritorio\codigos python\codigo en desarrollo\whatsapp_bot> pytest src/test_main.py  
+========================================================================
+platform win32 -- Python 3.7.16, pytest-7.4.4, pluggy-1.2.0
+collected 22 items
+src\test_main.py ...................... [100%]
+========================================================================
+22 passed in 0.08s
+```
+```sh
+PS C:\Users\JuanC\OneDrive\Escritorio\codigos python\codigo en desarrollo\whatsapp_bot> pytest -v
+========================================================================
+platform win32 -- Python 3.7.16, pytest-7.4.4, pluggy-1.2.0
+collected 22 items
+
+src/test_main.py::test_obtener_codigo_pais[Colombia-57] PASSED  [  4%]
+src/test_main.py::test_obtener_codigo_pais[España-34] PASSED     [  9%]
+src/test_main.py::test_obtener_codigo_pais[Estados Unidos-1] PASSED [13%]
+src/test_main.py::test_generar_numero_completo PASSED            [ 54%]
+src/test_main.py::test_generar_numero_completo_error PASSED      [ 59%]
+src/test_main.py::test_archivo_mensajes_existe PASSED            [ 68%]
+src/test_main.py::test_obtener_numeros_whatsapp PASSED           [ 72%]
+========================================================================
+22 passed in 0.15s
+```
+
+
+
+🛠️ Mejoras Futuras
+📌 Soporte para múltiples mensajes por contacto.
+📌 Interfaz gráfica (GUI) para configurar los envíos.
+📌 Logs detallados para registrar la actividad del bot.
 
 </details>
